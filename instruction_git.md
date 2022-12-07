@@ -6,13 +6,22 @@
 - это система управления версиями с распределенной архитектурой
 
 ## Начальная настройка
-
 ### Установка пользователя
+    $ git config --global user.name "John Doe"
 
 ### Установка почты
+    $ git config --global user.email johndoe@example.com
+
+### Посмотреть имя (почту)    
+    $ git config --global user.name
+    $ git config --global user.email
+
+### Установка пользователя и почты для конкретного репозитория
+    $ git config user.name "John Doe"
+    $ git config user.email johndoe@example.com
 
 
-### Создание репозитория
+## Создание репозитория
 Создание нового репозитория (инициализация)
 
     git init
@@ -49,7 +58,7 @@
     git diff <hash> <hash>
 
 
-### Работа с репозиторием
+## Работа с репозиторием
 Добавить файл к отслеживанию
 
     git add
@@ -82,7 +91,7 @@
     git checkout <hash>
 
 
-### Ветвление
+## Ветвление
 Просмотр существующих веток
 
     git branch
