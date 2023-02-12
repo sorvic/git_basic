@@ -114,6 +114,10 @@
 Удаление веток
 
     git branch -d <name_branch>
+
+Удаление ветки на удаленном репозитории
+
+    git push origin --delete <name_branch>
     
 ### Пример-1 слияния в VSCode
 ![пример слияния в VSCode](pick/merge.png)
@@ -162,4 +166,4 @@
 
 ### Перепривязка локального репозитоия с удаленным (чтобы не удалять его)
 
-    rgit remote set-url origin git@github.com:sorvic/dz-03.git
+    git remote set-url origin git@github.com:sorvic/dz-03.git
