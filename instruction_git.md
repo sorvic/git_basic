@@ -124,6 +124,11 @@
 
     git push origin --delete <name_branch>
     
+Добавление удаленной ветки в локальный репозиторий
+    
+    git fetch origin
+    git checkout -b <название ветки> origin/<название ветки>
+    
 ### Пример-1 слияния в VSCode
 ![пример слияния в VSCode](pick/merge.png)
 
